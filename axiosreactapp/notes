@@ -16,6 +16,17 @@ by doing so yarn is able to take advantage of offline caches
 
 to read up on yarn vs npm 
 https://www.sitepoint.com/yarn-vs-npm/
+
 more in depth 
 https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/	
+
+we use yarn to install axios --> yarn add axios 
+--> add bootstrap link to index.html in the puclic folder 
+
+open the omdb container component and add three methods 
+
+compenent did mount 
+handle input change 
+handle form submit 
+
 
