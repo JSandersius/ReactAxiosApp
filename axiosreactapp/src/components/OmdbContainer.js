@@ -30,13 +30,13 @@ class OmdbContainer extends Component {
     const name = event.target.name; 
     this.setState({
       [name]: value 
-    })
-
-  }
+    });
+  };
 
   handleFormSubmit = event => {
-
-  }
+    event.preventDefault();
+    this.searchMovies(this.state.search);
+  };
 
 
 
