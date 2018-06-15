@@ -1,0 +1,10 @@
+API calls in react 
+Originally we learned how to make API calls using AJAX which is part of JQuery 
+Since Query is usually used for DOM manipulation and React uses a virtual DOM we genereally should'nt be using these together 
+How to make an API call without AJAX?  
+
+Devs have developed a great way to work around this
+AXIOS is an npm package that works similarly to AJAX without JQuery 
+
+We're going to use yarn instead of npm because yarn is a much faster and more consistent tool 
+
