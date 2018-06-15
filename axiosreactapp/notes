@@ -8,3 +8,14 @@ AXIOS is an npm package that works similarly to AJAX without JQuery
 
 We're going to use yarn instead of npm because yarn is a much faster and more consistent tool 
 
+When installing a new package with yarn the package is stored locally
+so the next time you install that  package in another application 
+you dont have to download it online again 
+by doing so yarn is able to take advantage of offline caches
+	this is one the biggest advantages to yarn because it puts less strain on the netowork and allows you to install packages faster and more efficiently  
+
+to read up on yarn vs npm 
+https://www.sitepoint.com/yarn-vs-npm/
+more in depth 
+https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/	
+
