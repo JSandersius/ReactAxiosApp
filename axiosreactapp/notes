@@ -29,7 +29,16 @@ compenent did mount
 handle input change 
 handle form submit 
  
-componentDidMount() {
+componentDidMount() {  is one of reacts life cycle methods 
+	the is a method that is triggered right after this component has loaded
+	if we were to query a search before this compenent mounts the application would be slowed down beacause it would be waiting for a reasonse before it finishes loading 
+
+Google --> react life cycle 
+react documenatation 
+
+in this method we're going to be utilizing the search movies method which is already there but commented out  
+
+what the search movies method is doing is using a seperate method within the Api.js file called "search" with the query parameter 
 
 
 

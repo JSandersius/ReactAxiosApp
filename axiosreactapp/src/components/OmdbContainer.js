@@ -13,11 +13,26 @@ class OmdbContainer extends Component {
     search: ""
   };
 
-  // searchMovies = query => {
-  //   API.search(query)
-  //     .then(res => this.setState({ result: res.data }))
-  //     .catch(err => console.log(err));
-  // };
+  // When this component mounts, search for the movie "The Matrix"
+  componentDidMount() {
+
+  }
+
+  searchMovies = query => {
+    API.search(query)
+      .then(res => this.setState({ result: res.data }))
+      .catch(err => console.log(err));
+  };
+
+  handleInputChange = event => {
+
+  }
+
+  handleFormSubmit = event => {
+
+  }
+
+
 
   render() {
     return (
