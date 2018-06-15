@@ -28,5 +28,8 @@ open the omdb container component and add three methods
 compenent did mount 
 handle input change 
 handle form submit 
+ 
+componentDidMount() {
+
 
 
