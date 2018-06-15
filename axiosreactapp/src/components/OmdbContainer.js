@@ -25,7 +25,12 @@ class OmdbContainer extends Component {
       .catch(err => console.log(err));
   };
 
-  handleInputChange = event => {
+  handleInputChange = event => { 
+    const value = event.target.value; 
+    const name = event.target.name; 
+    this.setState({
+      [name]: value 
+    })
 
   }
 

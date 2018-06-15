@@ -40,5 +40,14 @@ in this method we're going to be utilizing the search movies method which is alr
 
 what the search movies method is doing is using a seperate method within the Api.js file called "search" with the query parameter 
 
+-> now that search function is working properly, let's add the input change and search function 
+
+the handle input change method is the same as we're done before 
+	we're going to be updating the search property  of state with whatever is the current value of the search bar
+
+handle form submit will then trigger the search movies function with whaterver is the current value of search in state  
+
+
+
 
 
